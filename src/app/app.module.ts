@@ -5,6 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
+import { NavComponent } from './nav/nav.component';
 
 const myRoute: Routes=[
   {path:"",
@@ -16,7 +17,8 @@ const myRoute: Routes=[
 @NgModule({
   declarations: [
     AppComponent,
-    MainComponent
+    MainComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
